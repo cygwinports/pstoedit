@@ -1,0 +1,12 @@
+--- origsrc/pstoedit-3.70/configure.ac	2014-12-28 21:39:18.000000000 +0100
++++ src/pstoedit-3.70/configure.ac	2016-06-29 08:32:20.050052700 +0200
+@@ -18,9 +18,6 @@ AM_MAINTAINER_MODE
+ AC_CONFIG_SRCDIR([src/pstoedit.h])
+ AC_CONFIG_SUBDIRS(libEMF-1.0)
+ AC_CONFIG_MACRO_DIR([m4])
+-dnl libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.ac and
+-dnl libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+-dnl libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+ 
+ dnl We need only C++ and no other language
+ dnl seems to be broken : AC_LIBTOOL_TAGS([CXX])
